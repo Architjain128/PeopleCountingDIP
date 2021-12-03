@@ -61,7 +61,39 @@ pip3 install -r requirements.txt
 * R = det M – k (trace M)2
 
 ## Feature Pixel Selection
-![image](https://user-images.githubusercontent.com/56213387/144610646-91c7c1c8-1c0a-456a-b5de-8f9593fc901a.png)
+![image](https://user-images.githubusercontent.com/56213387/144610831-7868b5c6-90aa-42ab-a7a4-ad977772b70a.png)
+
+## Region Growing
+* Grouping pixels of moving object using seeds from feature pixel selection. 
+* Used BFS for generation components using eight connection search.
+![image](https://user-images.githubusercontent.com/56213387/144610940-a1b04aa2-ef3d-4d53-a497-45548e0a81d8.png)
+
+
+## Connected Component Labelling
+* Used DFS to calculate area of each separated components.
+* Treated components having area less than a threshold as background.
+* Later collected nearby components to treat it as one object.
+![image](https://user-images.githubusercontent.com/56213387/144611085-f3a2ff0d-b765-4af1-b8fe-6b2f616f420e.png)
+
+## Bounding Box & Centroid Detection
+* Used BFS to visit all co-ordinates of each connected component and took their average to find the co-ordinate of centroid. 
+* Bounding Box is calculated by taking the minimum/maximum x-y coordinates for each connected component.
+![image](https://user-images.githubusercontent.com/56213387/144611331-d98856c3-ea0c-4cff-a94a-bcec26c31ae1.png)
+
+## People Counting Algoritm
+![image](https://user-images.githubusercontent.com/56213387/144611397-e1d14d3f-097a-4c3a-83de-e71d556a8a45.png)
+
+
+## Evaluation Metric
+* We are using Accuracy as an evaluation metric to understand how better the algorithm  is performing.
+
+![image](https://user-images.githubusercontent.com/56213387/144611546-fc7d2e67-e542-49b4-a4da-8dca12ea4be7.png)
+
+## Results
+![image](https://user-images.githubusercontent.com/56213387/144611606-c66c6608-6565-415f-9efd-3d6fd8ac76d2.png)
+
+
+    
 
 
 
