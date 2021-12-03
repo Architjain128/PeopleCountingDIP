@@ -1,4 +1,4 @@
-# People Counting System
+<!-- # People Counting System
 
 ## File Structure
 + **src** will contain `main.ipynb` file that contains all the code for running the system.
@@ -33,9 +33,7 @@
 ```
 pip3 install -r requirements.txt
 ```
-* Run main.ipynb with appropriate video_number (for choosing which video to evaluate)
-
-
+* Run main.ipynb with appropriate video_number (for choosing which video to evaluate) -->
 
 
 
