@@ -84,7 +84,8 @@ pip3 install -r requirements.txt
 
 ## Evaluation Metric
 * We are using Accuracy as an evaluation metric to understand how better the algorithm  is performing.
-<img src="https://user-images.githubusercontent.com/56213387/144611546-fc7d2e67-e542-49b4-a4da-8dca12ea4be7.png" width="50" height="100">
+![image](https://user-images.githubusercontent.com/56213387/144625790-3d2e159e-b722-427e-81b2-edb80b2e4b61.png)
+
 
 ## Results
 <img src="https://user-images.githubusercontent.com/56213387/144611606-c66c6608-6565-415f-9efd-3d6fd8ac76d2.png" width="600" height="300">
