@@ -76,7 +76,7 @@ pip3 install -r requirements.txt
 ## Bounding Box & Centroid Detection
 * Used BFS to visit all co-ordinates of each connected component and took their average to find the co-ordinate of centroid. 
 * Bounding Box is calculated by taking the minimum/maximum x-y coordinates for each connected component.
-![image](https://user-images.githubusercontent.com/56213387/144611331-d98856c3-ea0c-4cff-a94a-bcec26c31ae1.png)
+![image](https://user-images.githubusercontent.com/56213387/144623777-a3ad2278-ca10-42ce-a3c1-785f28dba8b6.png)
 
 ## People Counting Algoritm
 ![image](https://user-images.githubusercontent.com/56213387/144611397-e1d14d3f-097a-4c3a-83de-e71d556a8a45.png)
