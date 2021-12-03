@@ -35,3 +35,14 @@ pip3 install -r requirements.txt
 ```
 * Run main.ipynb with appropriate video_number (for choosing which video to evaluate)
 
+
+
+
+
+
+# People Counting System for Getting In/Out of a Bus Based on Video Processing
+
+## Problem Statement
+* To implement an automatic system for counting people in a video recorded by zenith camera in the bus to capture the flow bi-directionally.​
+
+
