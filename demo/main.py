@@ -139,7 +139,6 @@ def centroid_bfs(img,r,c,col,vis):
     return cent_x, cent_y, arr
 
 def give_count():
-    print("START")
     p = st.empty()
     # list of persons identified by algorithm
     listOfObjects = []
@@ -429,7 +428,7 @@ def show_home_page():
         Home page
     '''
     st.write("## User Input")
-    uploaded_file = st.file_uploader("Video", type=None, accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None)
+    uploaded_file = st.file_uploader("Video", type=['mp4'], accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None)
     if uploaded_file is not None:
         with open("input_videos/1.mp4", 'wb') as f:
             f.write(uploaded_file.getbuffer())
@@ -451,7 +450,7 @@ def show_home_page():
         if c==True:
             ss.write(f"### `STATUS : Completed`")
             with open("./output_results/1.txt", 'r') as file:
-                st.download_button("Download log file",file, file_name="log.txt")
+                st.download_button("Download Complete log file",file, file_name="log.txt")
 
 st.sidebar.header('Navigation')
 page = st.sidebar.selectbox("Select the page you want to see", ["Home","Explore"])
