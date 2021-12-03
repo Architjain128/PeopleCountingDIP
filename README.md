@@ -43,6 +43,21 @@ pip3 install -r requirements.txt
 # People Counting System for Getting In/Out of a Bus Based on Video Processing
 
 ## Problem Statement
-* To implement an automatic system for counting people in a video recorded by zenith camera in the bus to capture the flow bi-directionally.​
+* To implement an automatic system for counting people in a video recorded by zenith camera in the bus to capture the flow bi-directionally.
+
+## Flow Diagram
+![flow_diagram](https://user-images.githubusercontent.com/56213387/144610219-a024fcce-329c-4999-a8f6-414205a09396.jpeg)
+
+## Motion Estimation
+* Calculate optical flow between adjacent frames of the video
+* Used to differentiate between a moving and stationary object 
+* For identifying moving people
+
+## Feature Pixel Selection
+* Selects most significant feature.​
+* Differential Matrix M is calculated in Neighborhood s(p) 3x3.​
+* Pixels with greater feature value ( R ) are likely located on the moving object.​
+ 
+* R = det M – k (trace M)2​
 
 
