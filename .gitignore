@@ -23,3 +23,5 @@ videos
 input_videos
 output_results
 dipProjEnv
+demo/input_videos/*.avi
+demo/input_videos/*.mp4
