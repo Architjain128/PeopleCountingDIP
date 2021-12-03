@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 * To implement an automatic system for counting people in a video recorded by zenith camera in the bus to capture the flow bi-directionally.
 
 ## Flow Diagram
-![flow_diagram](https://user-images.githubusercontent.com/56213387/144610219-a024fcce-329c-4999-a8f6-414205a09396.jpeg = 250*250)
+![flow_diagram](https://user-images.githubusercontent.com/56213387/144610219-a024fcce-329c-4999-a8f6-414205a09396.jpeg | width=250)
 
 ## Motion Estimation
 * Calculate optical flow between adjacent frames of the video
