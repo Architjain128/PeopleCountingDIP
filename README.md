@@ -55,9 +55,13 @@ pip3 install -r requirements.txt
 
 ## Feature Pixel Selection
 * Selects most significant feature.​
-* Differential Matrix M is calculated in Neighborhood s(p) 3x3.​
-* Pixels with greater feature value ( R ) are likely located on the moving object.​
- 
-* R = det M – k (trace M)2​
+* Differential Matrix M is calculated in Neighborhood s(p) 3x3.
+![R](https://user-images.githubusercontent.com/56213387/144610494-d40ff7d4-77f1-4711-9290-192fc7d5fb2c.jpeg)
+* Pixels with greater feature value ( R ) are likely located on the moving object.
+* R = det M – k (trace M)2
+
+## Feature Pixel Selection
+![image](https://user-images.githubusercontent.com/56213387/144610646-91c7c1c8-1c0a-456a-b5de-8f9593fc901a.png)
+
 
 
